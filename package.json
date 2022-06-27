@@ -1,22 +1,29 @@
 {
-  "name": "comunidad-cucapa",
+  "name": "cucapa",
   "version": "1.0.0",
-  "description": "Project for PAP to change the narrative around the Cucapa community",
+  "description": "Change the narrative around Cucapa community",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon ./server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbeltran-dev/AlterCodigo.git"
+  },
+  "author": "Luis beltran",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbeltran-dev/AlterCodigo/issues"
+  },
+  "homepage": "https://github.com/lbeltran-dev/AlterCodigo#readme",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
+    "express": "^4.18.1",
     "axios": "^0.24.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.15"
   }
 }
